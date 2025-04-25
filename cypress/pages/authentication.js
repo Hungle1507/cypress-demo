@@ -19,5 +19,6 @@ class Authentication {
     verifyErrorMsg(message) {
         this.elements.errorMsg().should('contain.text', message)
     }
+    
 }
 export default new Authentication();
